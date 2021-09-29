@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage'
 import NotFound from './utils/not_Found/NotFound'
 import { UserContext } from './context/UserContext';
+import History from './components/mainPages/history/History';
 export default function Pages() {
     const {state,dispatch} = useContext(UserContext)
     const isLogged = state.isLoggedIn
@@ -16,7 +17,7 @@ export default function Pages() {
   
     return (
         <div>
-            <Route path="/"  component={HomePage} exact></Route>
+            <Route path="/"  component={isAdmin ? Booking : HomePage} exact></Route>
             <Route path="/hotels" exact component={HotelList}></Route> 
             <Route path="/hotels/city/:city" exact component={HotelList}></Route> 
 

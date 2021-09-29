@@ -37,9 +37,9 @@ export default function HotelPage() {
                     <p>{state.hotelList.length} Hotels Available in {city}</p>
                     <select>
 
-                        <option disabled>Sort by price</option>
-                        <option>Low to High</option>
-                        <option>High to Low</option>
+                        <option value="">Sort by price</option>
+                        <option value="lowest">Low to High</option>
+                        <option value="highest">High to Low</option>
                     </select>
                 </div>
                 {

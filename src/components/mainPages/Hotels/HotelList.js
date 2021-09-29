@@ -10,8 +10,6 @@ export default function HotelList({hotels}) {
         ? history.push(`/booking/${id}`)
         :  alert('Please log in to continue')       
     }
-
-    
   
     return (
         <>

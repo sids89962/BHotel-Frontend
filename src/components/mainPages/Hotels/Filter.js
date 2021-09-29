@@ -69,11 +69,11 @@ export default function Filter() {
             <form>
                 <label>Hotel Type</label>
                 <select value={type} onChange={handleType}>
-                    <option value="0">Hotel Type</option>
-                    <option value="1">Travel</option>
-                    <option value="2">Luxury</option>
-                    <option value="3">Business</option>
-                    <option value="4">Beach</option>
+                    <option value="">Hotel Type</option>
+                    <option value="travel">Travel</option>
+                    <option value="luxury">Luxury</option>
+                    <option value="business">Business</option>
+                    <option value="beach">Beach</option>
                 </select>
             </form>
             </div>
