@@ -1,5 +1,5 @@
 <h2>BHotel-Frontend</h2>
-<p> BHotel is a website which allows user to search hotels from a city and then filter on various parameters. User can book a hotel and booking is pending until approved by the admin. BHotel has a separate panel for the admin to review bookings. </p>
+<p> BHotel is a website which allows user to search hotels from a city and then filter on various parameters. User can book a hotel and booking is pending until approved by the admin. BHotel has a separate panel for the admin to review bookings. The website isn't made responsive because of major focus on MERN stack. </p>
 <hr>
 
 <h3>Links </h3>
